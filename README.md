@@ -4,6 +4,9 @@
 菜鸟教程：
 https://www.runoob.com/js/js-obj-intro.html
 
+https://javascript.info/
+
+https://css-tricks.com/snippets/javascript/
 ## 学习目标
 * 基础语法
 数据类型、变量、函数、事件、运算符、条件语句、循环、正则

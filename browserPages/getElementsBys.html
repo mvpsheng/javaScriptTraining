@@ -1,0 +1,35 @@
+<table id="table">
+    <tr>
+      <td>Your age:</td>
+  
+      <td>
+        <label>
+          <input type="radio" name="age" value="young" checked> less than 18
+        </label>
+        <label>
+          <input type="radio" name="age" value="mature"> from 18 to 50
+        </label>
+        <label>
+          <input type="radio" name="age" value="senior"> more than 60
+        </label>
+      </td>
+    </tr>
+  </table>
+  <form name="search">
+    <label>
+        <input type="text" name="search" value="How are you?">
+        <input type="submit" value="Search!">
+    </label>
+  </form>
+  <script>
+  
+    // for (let input of inputs) {
+    //   alert( input.value + ': ' + input.checked );
+    // }
+    let agetable = document.getElementById('table');
+    let form = document.getElementsByName('search')[0]
+    let firstInput = form.getElementsByTagName('input')[0];
+    firstInput.value = "i am great"
+    let inputs = form.querySelectorAll('input') // find all inputs
+    console.log(inputs[inputs.length-1].value);  // take the last one
+  </script>
