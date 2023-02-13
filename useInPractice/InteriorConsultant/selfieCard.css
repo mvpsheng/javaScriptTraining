@@ -1,0 +1,42 @@
+
+.selfie {
+    width: 80px;
+    height: 70px;
+}
+
+.name {
+    font-size: 14px;  
+    position: relative;
+    top: 10px;
+}
+.job {
+    position: relative;
+    font-size: 11px;
+    color: #787d82;
+    top: 20px;
+}
+.leftpic {
+    position: relative;
+    float: left;
+    width: 75%;
+    left: 10px;
+    top: 10px;
+}
+.leftpic img {
+    border-radius:50%;
+}
+.rightinfo {
+    position: relative;
+    float: right;
+    width: 150px;
+    /* border: 2px solid darkblue; */
+    right: 40px;
+    top: -60px;
+} 
+.intr {
+    position: relative;
+    width: 630px;
+    font-size: 22px;
+    top: 70px;
+    right: 200px;
+}

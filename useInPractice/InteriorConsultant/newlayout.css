@@ -1,0 +1,197 @@
+html {
+    font-size: 1em;
+  }
+
+body {
+    font: 1.2em Helvetica, Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background: black;
+    color: #f1f1f1;
+}
+
+.header {
+  height: 50px;
+  background-color: blueviolet;
+}
+
+.left {
+  float: left;
+  font-size: 1.4em;
+  padding-left: 20px;
+  line-height: 50px;
+  position: absolute;
+}
+
+.left a {
+  border: 1px solid white;
+  border-color: #fff;
+  color: #fff;
+  text-decoration: none;
+  /* font-weight: bold; */
+}
+
+.right {
+  float: right;
+}
+
+/* 响应式缩小时显示的展示按钮*/
+.response {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #262626;
+  height: 50px;
+  width: 50px;
+}
+
+/* response三条小横线伪元素 */
+#toggle span,
+#toggle span::before,
+#toggle span::after {
+  cursor: pointer;
+  border-radius: 2px;
+  height: 3px;
+  width: 30px;
+  background-color: white;
+  position: absolute;
+  display: block;
+  content: '';
+  transition: all 300ms ease-in-out;
+  top: 35px;
+  right: 10px;
+}
+
+#toggle span::before {
+  top: -10px;
+  left: -0px;
+}
+
+#toggle span::after {
+  top: -20px;
+  left: -0px;
+}
+
+#toggle.active span{
+   background-color: transparent;
+}
+
+.menu-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.right ul li {
+  float: left;
+  transition: 0.5s ease;
+}
+
+.right ul li:hover {
+  color: white;
+  background-color:aquamarine;
+}
+
+.right ul li:active {
+  color: white;
+  background-color: #343831;
+}
+
+.right ul li a {
+   display: block;
+   padding: 0 20px;
+   line-height: 50px;
+   color: inherit;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+
+.row {
+    max-width: 960px;
+    margin: 2em auto;
+    margin-top: 100px;
+}
+
+.room {
+    width: 450px;
+    height: 300px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.backbutton {
+    margin-top: 40px;
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    color:aliceblue;
+}
+.leftcolumn {
+    margin-top: 80px;
+    margin-left: 30px;
+} 
+/* 信息卡 */
+.card {
+    position: relative;
+    width: 300px;
+    height: 180px;
+    left: 630px;
+    top: -80px;
+    background-color: black;
+    color: white;
+}
+
+/* 底部 */
+.footer {
+    margin-top: 20px;
+    clear: both;  
+    display: block;  
+    text-align: center;   
+    position: relative;  
+    bottom: 0px;  
+    width: 100%; 
+    
+    font-size: 11px;
+    color: #787d82;
+}
+
+  @media all and (max-width: 700px) {
+    .right {
+      width: 100%;
+      padding: 50px 0 15px;
+    }
+
+    .response {
+      display: block;
+    }
+    .right ul li {
+      float: none;
+    
+      border-bottom: 1px solid lightgrey;
+    }
+  }
+
+  @media screen and (min-width: 700px) {
+    .row {
+      margin-top: 500;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      column-gap: 5%;
+    }
+    .room {
+        width: 600px;
+        height: 400px;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    .leftcolumn {
+        margin-top: 80px;
+        margin-left: 30px;
+    } 
+    
+  }

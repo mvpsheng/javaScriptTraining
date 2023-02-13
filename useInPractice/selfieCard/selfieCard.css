@@ -1,0 +1,36 @@
+.card {
+    position: relative;
+    width: 400px;
+    height: 150px;
+    border: 2px solid darkblue;
+    background-color: black;
+    color: white;
+}
+.selfie {
+    width: 100px;
+    height: 80px;
+}
+
+.name {
+    font-size: 14px;  
+}
+.job {
+    font-size: 11px;
+    color: #787d82;
+}
+.left {
+    float: left;
+    width: 75%;
+}
+.right {
+    position: relative;
+    float: right;
+    width: 150px;
+    /* border: 2px solid darkblue; */
+    right: 80px;
+    top: -60px;
+} 
+.intr {
+    position: relative;
+    width: 350px;
+}

@@ -5,17 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interior Consultant</title>
-    <link href="interCon.css" type="text/css" rel="stylesheet" />
-
+    <link href="newlayout.css" type="text/css" rel="stylesheet" />
+    <link type="text/css" href="selfieCard.css" rel="stylesheet" />
 </head>
 <body>
-<vid class="header"><h3>导航栏</h3></div>
+<div class="header">
+    <div class="left">
+        <a>This Interior</a>
+    </div>
+    <div class="right">
+        <div class="response"><a id="toggle"><span></span></a></div>
+        <div class="pc">
+            <ul class="menu-list" id="meli">
+                <li class="menu-item"><a>Home</a></li>
+                <li class="menu-item"><a>Collection</a></li>
+                <li class="menu-item"><a>About</a></li>
+                <li class="menu-item"><a>Contact</a></li>
+            </ul>
+        </div>
+        <div class="mobie">
+
+        </div>
+    </div>
+</div>
+
 <div class="row">
         <div class="leftcolumn">
-            <img src="room.jpg" class="room">
-        </div>
-
-        <div class="rightcolumn">
             <h1>Modern interior</h1>
             <p>A full-Service residential &
             <br>commercial interior design and
@@ -24,7 +39,31 @@
             <br> eco-services.</p>
             <button class="backbutton"> Read more -> </button>
         </div>
+        
+        <div class="rightcolumn">
+            <img src="design.jpg" class="room">
+        </div>
+        <div class="card">
+            <div class="person"> 
+                <div class="leftpic">
+                    <img class="selfie" src="sunglass.jpg">
+                </div>
+                <div class="rightinfo">
+                    <div class="name">
+                        Guo Xusheng
+                    </div>
+                    <div class="job">
+                        Full Stack Developer
+                    </div>
+                </div>
+            </div>
+            <div class="intr">
+                <p>Designed in 2023 by<br>
+                Guo Xusheng</p>
+            </div>
+        </div>
 </div>
 <div class="footer">created by Guo Xusheng</div>
 </body>
+<script type="text/javascript" src="collapse.js"></script>
 </html>
