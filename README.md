@@ -20,6 +20,10 @@ DOM、高级、BOM、JS库
  
 ## 当前阶段
 语法基础
+
+## 交互
+* JS 操作HTML 通过DOM 获取/修改属性
+
 ## HTML事件
 事件	    描述
 onchange	HTML 元素改变
