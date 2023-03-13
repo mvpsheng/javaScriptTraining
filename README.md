@@ -32,3 +32,22 @@ onmouseover	鼠标指针移动到指定的元素上时发生
 onmouseout	用户从一个 HTML 元素上移开鼠标时发生
 onkeydown	用户按下键盘按键
 onload	    浏览器已完成页面的加载
+
+
+## 学习记录
+2023/ 3/ 13 
+1. sillyStoryGenerator
+基础的字符串操作
+
+2. imageGallery
+循环数组遍历，动态修改DOM
+
+3. bouncing-balls
+面向对象编程
+
+## TODO
+1. Asynchronous JavaScript
+异步编程
+
+2. Web API
+第三方API调用
